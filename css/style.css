@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, main, footer{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+    
+}
+header nav p{
+    margin: 0 10px;
+    
+}
+header>section>nav:nth-child(2)>p:nth-child(1){
+    background-image: url(../images/Logos_prueba/icono-ayuda.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+header>section>nav:nth-child(2)>p:nth-child(2){
+    background-image: url(../images/Logos_prueba/icono-carrito.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100px;
+    padding-left: 30px;
+}
+nav form select{
+    border: none;
+    background: none;
+}
+nav button{
+    border: none;
+    background: none;
+    color: #7dbc3a;
+}
+main nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #7dbc3a;
+    align-items: center;
+    padding: 20px;
+}
+main>nav>p:nth-child(1){
+    background-image: url(.././images/Logos_prueba/icono-carrito-white.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+main>section:nth-child(2){
+    margin: 18px 18px 0 20px;
+    width: 938px;
+    height: 407px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(.././images/Logos_prueba/lupa.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+main>section:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #7dbc3a;
+    padding: 8px;
+    margin: 10px;
+}
+main>section:nth-child(3)>section>h3{
+    text-transform: uppercase;
+}
+main>section:nth-child(3)>figure{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+main>figure:nth-child(4)>{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+main>figure:nth-child(5){
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+main>figure:nth-child(5)>img{
+    width: 75px;
+    height: 75px;
+}
+main>figure:nth-child(5)>figcaption{
+    display: inline-block;
+    width: 149px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+main>figure:nth-child(5)>figcaption>h4{
+    text-transform: uppercase;
+}
+main>figure:nth-child(6){
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+main>figure:nth-child(6)>img{
+    width: 75px;
+    height: 75px;
+}
+main>figure:nth-child(6)>figcaption{
+    display: inline-block;
+    width: 149px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+
+main>figure:nth-child(6)>figcaption>h4{
+    text-transform: uppercase;
+}
+main>section:nth-child(7){
+    background-color: #7dbc3a;
+    height: 4px;
+    margin-top: 50px;
+}
+main>section:nth-child(8){
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 936px;
+    height: 119px;
+    padding: 8px;
+    margin: 10px;
+}
+main>section:nth-child(8)>figure{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+main>section:nth-child(8)>figure>img{
+    height: 50px;
+    width: 50px;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+footer>section:nth-child(1){
+    color: #7dbc3a;
+    float: left;
+}
+footer>section:nth-child(2){
+    float: right;
+}
+
+footer>section:nth-child(2)>p:nth-child(2){
+    background-image: url(../images/Logos_prueba/footer_facebook.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+footer>section:nth-child(2)>p:nth-child(3){
+    background-image: url(../images/Logos_prueba/footer_twitter.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
